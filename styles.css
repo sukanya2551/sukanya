@@ -13,7 +13,7 @@
         }
 
         nav{
-            background-color: rgb(216, 114, 18);
+            background-color: rgb(55, 185, 236);
             overflow: hidden;
         }
 
@@ -31,7 +31,7 @@
 
         .menu li{
             float: left;
-            color: rgb(156, 60, 219);
+            color: rgb(10, 10, 10);
             list-style: none;
             margin-left: 10px;
             padding: 14px 16px;
@@ -53,9 +53,14 @@
         .logo{
             font-size: 30px;
         }
+        .logo img:hover{
+            transform: scale(1.1);
+        }
+        .menu li:hover{
+            transform: scale(1.1);
+        }
 
-
-    /* table style */
+ /* table style */
     .styled-table{
     width: 100%;
     border-collapse: collapse;
@@ -65,7 +70,7 @@
 
     /* ตกแต่งส่วนหัวของตาราง */
     .styled-table th{
-    background-color: rgb(63, 188, 247); /*สีพื้นหลังของหัวข้อ */
+    background-color: rgb(2, 167, 243); /*สีพื้นหลังของหัวข้อ */
     color: rgb(26, 11, 11); /* สีของตัวอักษรของหัวข้อ */
     text-align: center; /*ตำแหน่งของตัวอักษรให้อยู๋ตรงกลาง */
     padding: 12px 15px; /*เพิ่ม padding ด้านในหัวข้อ */
@@ -84,7 +89,7 @@
     .styled-table tr :hover{
         background-color: rgb(211, 27, 228);
     }
-
+    
     /* เพิ่มเส้นขอบนอกตาราง */
     .styled-table , .styled-table th,.styled-table td{
         border: 1px solid rgb(14, 180, 89);
@@ -147,7 +152,8 @@
         display: block;
     }
     
-    /* ------portfolio------ */
+    
+   /* ------portfolio------ */
     .title {
         justify-content: center;
         padding: 12px;
@@ -157,6 +163,9 @@
         display: flex;
         justify-content: center;
         padding: 10px;
+    }
+    pic :hover{
+        transform: scale(1.1);
     }
     .pich-item{
         max-width: 1140px;
@@ -181,17 +190,65 @@
     .content {
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        border: 1px rgb(14, 180, 89) solid;
+        border: 1px rgb(238, 243, 240) solid;
         max-width: 1140px;
         margin: 0 auto;
         column-gap: 14px;
+        transition: 0.5s;
     }
-    .content-item {
-        border: 1px rgb(51, 6, 88) solid;
+    .content-item1{
+        border: 5px rgb(138, 9, 245) solid;
         padding: 12px;
-        background-color: rgb(120, 76, 240);
+        background-color: rgb(240, 105, 217);
+        color: rgb(1, 7, 4);
+        border-radius: 12px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.13) ,;
+    }
+    .content:hover{
+        transform: scale(1.1);
+    }
+.content-item2{
+        border: 5px rgb(24, 240, 114) solid;
+        padding: 12px;
+        background-color: rgb(92, 221, 135);
+        color: rgb(2, 10, 7);
+        border-radius: 12px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.13) ,;
+    }
+    .content :hover{
+        transform: scale(1.1);
+    }
+    
+    .content-item3{
+        border: 5px rgb(156, 4, 12) solid;
+        padding: 12px;
+        background-color: rgb(243, 103, 126);
+        color: rgb(2, 7, 5);
+        border-radius: 12px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.13) ,;
+    }
+    .content :hover{
+        transform: scale(1.1);
+   .content-item4{
+        border: 3px rgb(201, 211, 57) solid;
+        padding: 12px;
+        background-color: rgb(52, 177, 235);
         color: rgb(195, 207, 202);
         border-radius: 12px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.13) ,;
-        transition: 0.5s;
+    }
+    .content :hover{
+        transform: scale(1.1);
+    }
+    
+    .content-item5{
+        border: 3px rgb(3, 3, 3) solid;
+        padding: 12px;
+        background-color: rgb(186, 189, 51);
+        color: rgb(195, 207, 202);
+        border-radius: 12px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.13) ,;
+    }
+    .content :hover{
+        transform: scale(1.1);
     }
