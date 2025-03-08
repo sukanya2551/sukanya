@@ -60,7 +60,8 @@
             transform: scale(1.1);
         }
 
- /* table style */
+        
+    /* table style */
     .styled-table{
     width: 100%;
     border-collapse: collapse;
@@ -89,7 +90,7 @@
     .styled-table tr :hover{
         background-color: rgb(211, 27, 228);
     }
-    
+
     /* เพิ่มเส้นขอบนอกตาราง */
     .styled-table , .styled-table th,.styled-table td{
         border: 1px solid rgb(14, 180, 89);
@@ -98,7 +99,7 @@
     /* navber-container */
     .navber{
         overflow: hidden;
-        background-color: rgb(219, 111, 9);
+        background-color: rgb(6, 151, 248);
         /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     }
     /* link inside navbar */
@@ -152,8 +153,7 @@
         display: block;
     }
     
-    
-   /* ------portfolio------ */
+    /* ------portfolio------ */
     .title {
         justify-content: center;
         padding: 12px;
@@ -207,7 +207,8 @@
     .content:hover{
         transform: scale(1.1);
     }
-.content-item2{
+    
+    .content-item2{
         border: 5px rgb(24, 240, 114) solid;
         padding: 12px;
         background-color: rgb(92, 221, 135);
@@ -229,7 +230,9 @@
     }
     .content :hover{
         transform: scale(1.1);
-   .content-item4{
+    }
+    
+    .content-item4{
         border: 3px rgb(201, 211, 57) solid;
         padding: 12px;
         background-color: rgb(52, 177, 235);
